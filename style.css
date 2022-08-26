@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  height: 100;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 98%);
+}
+
+
+a{
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+
+li{
+  list-style: none;
+}
+ header{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.flex{
+  display: flex;
+  
+}
+
+.nav-left ul{
+  display: flex;
+  margin-left: 30px;
+}
+
+ .nav-left li  {
+  margin-top: 8px;
+}
+
+.nav-left ul li {
+  margin-left: 20px;
+}
+
+
+.nav-left a {
+   color: hsl(0, 0%, 41%) ;
+}
+
+.nav-left img{
+  margin-left: 10px;
+}
+
+.nav-left .features {
+  position: relative;
+}
+ .features a{
+  color: black;
+ }
+
+.nav-right a{
+ margin-right: 30px;
+ display: inline;
+}
+
+.nav-right .reg{
+  padding: 10px 20px;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  color: hsl(0, 0%, 8%);
+  font-size: 18px;
+  font-weight: 550;
+}
+
+
+
+
+section {
+  display: flex;
+  justify-content: center;
+  
+  align-content: center;
+
+}
+
+
+section .article-content {
+  margin-top: 120px;
+  margin-right: 100px;
+  width: 500px;
+  height: 500px;
+}
+
+section .article-content h1{
+  font-size: 70px;
+}
+
+section .article-content p{
+  margin-top: 40px;
+
+}
+
+section .article-content .btn {
+  display:inline-block;
+  margin-top:40px ;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  padding: 7px 17px;
+  color: hsl(0, 0%, 8%);
+  font-size: 18px;
+  font-weight: 550;
+}
+  
+
+section .article-content div {
+margin-top: 100px;
+}
+
+section .article-content .img img {
+  margin-left: 20px;
+}
+
+
+.article-img img {
+  height: 600px;
+  margin-top: 30px;
+}
+
+  .a{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    border-radius: 10px;
+   position: absolute;
+    opacity: 0;
+    transition: all .6s ease-in-out; 
+    right: 5px;
+    margin-top: 10px;
+    height: 130px;
+    display: none;  
+    width: 130px;
+  }
+
+  .b{
+    display: inline-block;
+    opacity: 1
+  }
+  
+  .c{
+    display: inline-block;
+    opacity: 1
+  }
+  .menue-list{
+    color: hsl(0, 0%, 41%);
+    font-size: 12px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+  }
+  .menue-list img{
+    margin-right: 15px;
+    position: relative;
+    top: 2px;
+  }
+
+
+  .company{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    border-radius: 10px;
+    position: absolute;
+    transition: all .6s ease-in-out; 
+    left: -30px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    display: none;
+    opacity: 0;
+  }
+
+
+
+  .companys{
+    position: relative;
+  }
+
+
+  .company-list{
+    color: hsl(0, 0%, 41%);
+    font-size: 12px;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 2px;
+    position: relative;
+    right: 7px;
+  }
+
+
+
+
+
+
+
+
+
